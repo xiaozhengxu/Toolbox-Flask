@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>
+         Login 
+      </title>
+   </head>
+<body>
+   <h1>Hi</h1>
+   	{% if error %}
+  <p>{{ error }}!</p>
+	{% else %}
+  <p>Your name is {{Firstname}} {{Lastname}} </p> <br>
+  <p>Your age is {{Age}} </p> <br>
+  <p>Your favorite dessert is {{Dessert}} </p> <br>
+	{% endif %}
+
+</body>
+</html>
